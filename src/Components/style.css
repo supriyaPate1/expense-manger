@@ -1,0 +1,200 @@
+* {
+  border-collapse: collapse;
+}
+#heading {
+  text-align: center;
+}
+#history {
+  text-align: center;
+}
+#incomeInpt {
+  text-align: center;
+}
+#entry {
+  width: 70%;
+  margin: auto;
+  background-color: #eeeeee;
+  padding: 5px 6px 15px 6px;
+  /* margin: 10px; */
+  margin-top: 4px;
+  border: 1px solid black;
+  border-radius: 4px;
+  box-shadow: 2px 3px gray;
+}
+
+#entry h4 {
+  margin: 12px 0px 20px 4px;
+}
+
+#flexing {
+  display: flex;
+}
+
+#flexing > * {
+  flex: 1;
+}
+
+#flexing input {
+  width: 60%;
+}
+#flexing select {
+  width: 55%;
+  font-size: small;
+}
+#flexing > div:nth-child(1) {
+  width: 10%;
+  text-align: right;
+  padding-right: 4%;
+}
+
+#entry > button {
+  background-color: #2f79b9;
+  color: white;
+  font-weight: bold;
+  border-radius: 2px;
+  border-style: none;
+  width: 15%;
+  padding: 5px 0px;
+  margin-top: 10px;
+  margin-left: 40%;
+  margin-right: 40%;
+  cursor: pointer;
+}
+
+#entry > button:hover {
+  background-color: midnightblue;
+  color: white;
+}
+
+#counter > :nth-child(2) {
+  color: white;
+  background-color: brown;
+}
+
+#counter > * {
+  cursor: pointer;
+  font-weight: bold;
+}
+
+#counter {
+  margin-right: 0px;
+}
+
+#entry input[type="date"]::-webkit-calendar-picker-indicator {
+  cursor: pointer;
+}
+
+#center {
+  display: flex;
+  width: 70%;
+  margin: auto;
+}
+
+#center1 {
+  width: 30%;
+  border: 1px solid gray;
+  margin-right: 8px;
+  background-color: whitesmoke;
+  padding: 6px;
+  border-radius: 3px;
+  box-shadow: 2px 3px rgb(194, 194, 194);
+}
+
+#center2 {
+  width: 70%;
+  border-top: 2px solid gray;
+  border-bottom: 2px solid gray;
+  background-color: whitesmoke;
+  padding: 0px;
+  height: 440px;
+  overflow: scroll;
+}
+li {
+  padding: 0px 6px;
+  margin: 0px;
+  list-style: none;
+  border-bottom: 1px solid gray;
+  display: flex;
+}
+#adjust {
+  width: 5%;
+  padding: 12px 0px;
+  padding-left: 8px;
+}
+#content {
+  border-left: 5px solid;
+  padding: 12px;
+  padding-left: 14px;
+  width: 80%;
+}
+#Rs {
+  padding: 20px 8px;
+  width: 20%;
+  text-align: right;
+  font-weight: bold;
+  color: red;
+}
+
+#calculation > * {
+  height: 50px;
+  border: 1px solid gray;
+  margin: 12px 4px;
+  text-align: right;
+  padding: 5px;
+}
+#income {
+  background-color: #58b957;
+  color: white;
+}
+#expense {
+  background-color: #db524b;
+  color: white;
+}
+#balance {
+  background-color: #eeeeee;
+  color: #db524b;
+}
+#chart {
+  border: 1px solid gray;
+  margin: 12px 4px;
+  margin-top: 30px;
+  border-radius: 5px;
+  padding: 4px;
+  background-color: #eeeeee;
+  text-align: center;
+
+  font-weight: Bold;
+}
+
+#content {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+#categories {
+  font-size: 11px;
+  margin-left: 2px;
+}
+#date {
+  font-size: 10px;
+  margin-left: 2px;
+  color: gray;
+}
+select {
+  cursor: pointer;
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+}
+#chart h3 {
+  margin: 6px 0px 10px;
+}
+#catego p {
+  margin: 12px 0px;
+  font-size: 14px;
+}
+.shift {
+  color: black;
+  margin-left: 10px;
+  font-size: 13px;
+}
